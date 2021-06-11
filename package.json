@@ -1,0 +1,25 @@
+{
+  "name": "GoogleSheetReader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mythius/GoogleSheetReader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mythius/GoogleSheetReader/issues"
+  },
+  "homepage": "https://github.com/mythius/GoogleSheetReader#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15",
+    "socket.io": "^4.1.2"
+  }
+}
